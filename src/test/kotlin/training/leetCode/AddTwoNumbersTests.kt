@@ -21,7 +21,7 @@ class AddTwoNumbersTests {
 
     @ParameterizedTest
     @MethodSource("addTwoNumbersCases")
-    fun `should return the positions in the array of values whose sum is equal to the target`(
+    fun `should return the sum of two numbers represented in ListNode's structures`(
         input1: UInt,
         input2: UInt,
         expected: UInt

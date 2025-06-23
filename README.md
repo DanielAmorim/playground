@@ -8,6 +8,7 @@
 * [Median of Two Sorted Arrays](./src/main/kotlin/training/leetCode/findMedianSortedArrays/README.md)
 * [Longest Palindromic Substring](./src/main/kotlin/training/leetCode/longestPalindrome/README.md)
 * [Zigzag Conversion](./src/main/kotlin/training/leetCode/zigzagConversion/README.md)
+* [Reverse Integer](./src/main/kotlin/training/leetCode/reverseInteger/README.md)
 
 
 ## Interviews

@@ -2,13 +2,14 @@
 
 ### LeetCode
 
-* [Two Sum](./src/main/kotlin/training/leetCode/twoSum/README.md)
-* [Add two numbers](./src/main/kotlin/training/leetCode/addTwoNumbers/README.md)
-* [Length of longest substring](./src/main/kotlin/training/leetCode/lengthOfLongestSubstring/README.md)
-* [Median of Two Sorted Arrays](./src/main/kotlin/training/leetCode/findMedianSortedArrays/README.md)
-* [Longest Palindromic Substring](./src/main/kotlin/training/leetCode/longestPalindrome/README.md)
-* [Zigzag Conversion](./src/main/kotlin/training/leetCode/zigzagConversion/README.md)
-* [Reverse Integer](./src/main/kotlin/training/leetCode/reverseInteger/README.md)
+1. [Two Sum](./src/main/kotlin/training/leetCode/twoSum/README.md)
+1. [Add two numbers](./src/main/kotlin/training/leetCode/addTwoNumbers/README.md)
+1. [Length of longest substring](./src/main/kotlin/training/leetCode/lengthOfLongestSubstring/README.md)
+1. [Median of Two Sorted Arrays](./src/main/kotlin/training/leetCode/findMedianSortedArrays/README.md)
+1. [Longest Palindromic Substring](./src/main/kotlin/training/leetCode/longestPalindrome/README.md)
+1. [Zigzag Conversion](./src/main/kotlin/training/leetCode/zigzagConversion/README.md)
+1. [Reverse Integer](./src/main/kotlin/training/leetCode/reverseInteger/README.md)
+1. [String to Integer (atoi)](./src/main/kotlin/training/leetCode/atoi/README.md)
 
 
 ## Interviews

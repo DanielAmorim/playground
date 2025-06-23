@@ -10,6 +10,7 @@
 1. [Zigzag Conversion](./src/main/kotlin/training/leetCode/zigzagConversion/README.md)
 1. [Reverse Integer](./src/main/kotlin/training/leetCode/reverseInteger/README.md)
 1. [String to Integer (atoi)](./src/main/kotlin/training/leetCode/atoi/README.md)
+1. [Palindrome Number](./src/main/kotlin/training/leetCode/palindromeNumber/README.md)
 
 
 ## Interviews

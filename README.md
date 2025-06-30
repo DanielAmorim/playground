@@ -13,6 +13,7 @@
 1. [Palindrome Number](./src/main/kotlin/training/leetCode/palindromeNumber/README.md)
 1. [Binary Tree Inorder Traversal](./src/main/kotlin/training/leetCode/inorderTraversal/README.md)
 1. [Same trees](./src/main/kotlin/training/leetCode/sameTree/README.md)
+1. [Symmetric Tree](./src/main/kotlin/training/leetCode/symmetricTree/README.md)
 
 
 ## Interviews

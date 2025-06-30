@@ -14,9 +14,9 @@ class SameTreeTests {
     companion object {
         @JvmStatic
         fun sameTreeCases() = Stream.of(
-            Arguments.of(listOf(1,2,3), listOf(1,2,3), true),
             Arguments.of(listOf(1,2), listOf(1,null,2), false),
             Arguments.of(listOf(1,2,1), listOf(1,1,3), false),
+            Arguments.of(listOf(1,2,3), listOf(1,2,3), true),
         )
     }
 

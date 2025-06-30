@@ -1,5 +1,7 @@
 package training.leetCode.inorderTraversal
 
+import training.leetCode.crosscutting.trees.TreeNode
+
 /**
  * Example:
  * var ti = TreeNode(5)
@@ -23,11 +25,4 @@ class Solution {
         list.add(node.`val`)
         inorder(node.right, list)
     }
-}
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-
-    companion object
 }

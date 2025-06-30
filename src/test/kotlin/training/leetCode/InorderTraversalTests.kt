@@ -1,11 +1,12 @@
 package training.leetCode
 
+import crosscutting.trees.fromCompactedListRepresentation
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
+import training.leetCode.crosscutting.trees.TreeNode
 import training.leetCode.inorderTraversal.Solution
-import training.leetCode.inorderTraversal.TreeNode
 import java.util.stream.Stream
 
 class InorderTraversalTests {
@@ -24,7 +25,7 @@ class InorderTraversalTests {
     @MethodSource("inorderTraversalCases")
     fun `Given the root of a binary tree return the inorder traversal of its nodes values`(input: List<Int?>, expected: List<Int>) {
         // arrange
-        val treeNode = TreeNode.from(input)
+        val treeNode = TreeNode.fromCompactedListRepresentation(input)
 
         // act
         val actual = Solution().inorderTraversal(treeNode)
@@ -32,27 +33,4 @@ class InorderTraversalTests {
         // assert
         Assertions.assertThat(actual).isEqualTo(expected)
     }
-}
-
-fun TreeNode.Companion.from(values: List<Int?>, start: Int = 0): TreeNode? {
-    if(values.isEmpty()) return null
-    val root = TreeNode(values[start]!!)
-    val nodes= ArrayDeque<TreeNode>()
-    nodes.add(root)
-    var index = start + 1
-    while (index < values.size) {
-        val currNode = nodes.removeFirst()
-        if(values[index] != null) {
-            currNode.left = TreeNode(values[index]!!)
-            nodes.add(currNode.left!!)
-        }
-        index++
-        if(index < values.size && values[index] != null) {
-            currNode.right = TreeNode(values[index]!!)
-            nodes.add(currNode.right!!)
-        }
-        index++
-    }
-
-    return root
 }

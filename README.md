@@ -12,6 +12,7 @@
 1. [String to Integer (atoi)](./src/main/kotlin/training/leetCode/atoi/README.md)
 1. [Palindrome Number](./src/main/kotlin/training/leetCode/palindromeNumber/README.md)
 1. [Binary Tree Inorder Traversal](./src/main/kotlin/training/leetCode/inorderTraversal/README.md)
+1. [Same trees](./src/main/kotlin/training/leetCode/sameTree/README.md)
 
 
 ## Interviews
